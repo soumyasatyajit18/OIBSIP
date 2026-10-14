@@ -98,13 +98,6 @@ The notebook calculates these metrics where the necessary fields are available:
 - Which numerical variables have strong linear relationships?
 - Do average transaction values vary across age and gender segments?
 
-## Notes and Limitations
-
-- The README describes the analysis implemented in the notebook; it does not claim specific findings or sales figures because those depend on the dataset used and the notebook outputs.
-- The notebook uses fallback column names for some fields. If your CSV uses different names, update the relevant column-selection logic.
-- Correlation indicates association, not causation.
-- Customer transaction counts should not automatically be interpreted as the size of the overall customer population.
-- Recommendations should be based on the actual results produced by the notebook.
 
 ## Repository Structure
 
@@ -115,8 +108,7 @@ The notebook calculates these metrics where the necessary fields are available:
 └── README.md
 ```
 
-The CSV is shown as an expected input file; include it in the repository only if you are permitted to share it.
-
 ## Author
 
-Add your name and relevant contact or portfolio links here.
+Soumya Satyajit
+
