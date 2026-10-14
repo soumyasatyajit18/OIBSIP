@@ -107,8 +107,10 @@ The notebook calculates these metrics where the necessary fields are available:
 ├── Retail Sales Dataset.csv
 └── README.md
 ```
+📄 License
+Created for educational and portfolio purposes as part of the Oasis Infobyte Summer Internship Program.
 
 ## Author
 
-Soumya Satyajit
+Soumya Satyajit | Data Analytics Intern, Oasis Infobyte | #oasisinfobyte
 
