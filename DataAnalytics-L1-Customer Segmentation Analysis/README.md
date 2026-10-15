@@ -63,9 +63,9 @@ When the notebook is run, it displays:
 Add screenshots of your own notebook outputs to an `images/` folder if you want to show previews on GitHub. Example Markdown:
 
 ```markdown
-![RFM distributions](images/rfm-distributions.png)
-![Cluster evaluation](images/cluster-evaluation.png)
-![Customer segments](images/customer-segments.png)
+![RFM distributions](images/Descriptive statistics and RFM features_data_Chart.png)
+![Cluster evaluation](images/cluster-Visualise clusters.png)
+![Customer segments](images/Profile each cluster.png)
 ```
 
 ## 🧰 Skills Demonstrated
@@ -102,8 +102,6 @@ Run Runtime > Run all.
 
 
 `OnlineRetail.csv` is a required input file and is not included automatically with the notebook. The two output CSV files are generated when the final notebook cell runs. Include datasets in a public repository only when you have permission to share them.
-
-## ▶️ How to Run
 
 ### 1. Install Python dependencies
 
