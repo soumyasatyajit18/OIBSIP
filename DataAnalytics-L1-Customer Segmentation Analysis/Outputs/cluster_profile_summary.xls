@@ -1,0 +1,4 @@
+Cluster,Customers,AvgRecencyDays,MedianRecencyDays,AvgOrders,MedianOrders,AvgMonetary,MedianMonetary,AvgPurchaseValue
+1,1323,30.1,17.0,9.83,7.0,5494.34,2575.38,634.57
+0,2036,54.86,46.0,2.05,2.0,615.24,509.29,338.43
+2,979,255.27,253.0,1.39,1.0,398.13,291.05,295.98
