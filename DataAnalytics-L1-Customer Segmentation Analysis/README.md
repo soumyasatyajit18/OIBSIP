@@ -63,9 +63,9 @@ When the notebook is run, it displays:
 Add screenshots of your own notebook outputs to an `images/` folder if you want to show previews on GitHub. Example Markdown:
 
 ```markdown
-![RFM distributions](images/Descriptive statistics and RFM features_data_Chart.png)
-![Cluster evaluation](images/cluster-Visualise clusters.png)
-![Customer segments](images/Profile each cluster.png)
+![RFM distributions](Outputs/Descriptive statistics and RFM features_data_Chart.png)
+![Cluster evaluation](Outputs/cluster-Visualise clusters.png)
+![Customer segments](Outputs/Profile each cluster.png)
 ```
 
 ## 🧰 Skills Demonstrated
