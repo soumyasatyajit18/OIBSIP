@@ -31,5 +31,3 @@ IQR identifies unusual observations, not necessarily incorrect observations. Hig
 ## Reproducibility
 Run the notebook top-to-bottom from the project directory. Required libraries: `pandas` and `numpy`. The notebook writes the cleaned output to the `data` directory and runs assertions to catch remaining missing values, duplicates, invalid categories, and incorrect numeric ranges.
 
-## Dataset sourcing note
-The task brief suggests Kaggle as a source. This package uses a synthetic training dataset so the intentionally corrupted values and expected cleaning decisions are reproducible. If the evaluator requires a dataset downloaded directly from Kaggle, use the official Titanic competition dataset and preserve the original download as the unmodified source: https://www.kaggle.com/c/titanic/data
