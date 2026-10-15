@@ -7,8 +7,7 @@
 - `Cleaning_Decision_Log.csv` — concise record of cleaning decisions.
 - `Before_After_Summary.csv` — key before/after metrics.
 
-## Dataset note
-The dataset is synthetic and Titanic-style; it is deliberately messy and reproducible. It is **not** authentic historical passenger data. The exercise requirements can be demonstrated with this practice dataset. If the evaluator explicitly requires Kaggle-sourced records, download the Kaggle Titanic `train.csv`, preserve it as the raw source, and adapt the notebook's input path and corruption step. Kaggle competition source: https://www.kaggle.com/c/titanic/data
+
 
 ## Run
 1. Open `Task_3_Data_Cleaning.ipynb` in Jupyter Notebook or JupyterLab.
