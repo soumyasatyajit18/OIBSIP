@@ -1,0 +1,14 @@
+Field / issue,Action taken,Justification
+Blank strings,Replace whitespace-only values with NaN,"Blank values are missing, not meaningful strings."
+Age,"Numeric parsing; values outside 0–100 to missing; group median by Pclass and Sex, then global median",Median is robust to skew; groups have different age profiles.
+Fare,"Strip currency formatting; values outside 0–10000 to missing; median by Pclass, then global median",Fare is skewed and related to class.
+Sex,Normalize case/whitespace and map M/F to Male/Female; invalid values become missing then mode,One canonical category per concept.
+Embarked,Map known aliases to S/C/Q; invalid values become missing then mode,Canonical codes support consistent grouping.
+Survived,Allow only 0/1; invalid values become missing then mode,Binary target has a strict domain.
+Pclass,Allow only 1/2/3; invalid values become missing then mode,Class must be one of the documented categories.
+SibSp/Parch,Nonnegative count validation; mode imputation for invalid/missing,Counts cannot be negative.
+Cabin,Create CabinKnown indicator and drop sparse Cabin text,Avoid fabricating high-cardinality cabin identifiers.
+Name/Ticket,Trim strings; missing text becomes Unknown,Preserve rows and make unavailable text explicit.
+Duplicates,Remove 12 exact duplicate rows after normalization,Exact duplicates can inflate aggregate counts.
+IQR outliers,Report IQR fences; retain plausible values; invalid domain values handled separately,Statistical unusualness is not proof of data error.
+Row deletion,Do not delete rows solely for missing predictor values,Imputation preserves records; only exact duplicates are removed.

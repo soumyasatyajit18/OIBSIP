@@ -1,0 +1,6 @@
+Metric,Before cleaning,After cleaning
+Rows,512,500
+Columns,12,12
+Exact duplicate rows,12,0
+Missing cells,589,0
+Columns with missing values,5,0
