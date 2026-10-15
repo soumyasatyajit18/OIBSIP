@@ -59,14 +59,20 @@ When the notebook is run, it displays:
 - Customer cluster scatter plots (Recency vs Monetary and Frequency vs Monetary).
 - Customer counts by cluster.
 - Cluster profile and segment summary tables.
+  
+## 🖼️ Preview
 
-Add screenshots of your own notebook outputs to an `images/` folder if you want to show previews on GitHub. Example Markdown:
+### 1. RFM Features and Descriptive Statistics
 
-```markdown
-![RFM distributions](Outputs/Descriptive statistics and RFM features_data_Chart.png)
-![Cluster evaluation](Outputs/cluster-Visualise clusters.png)
-![Customer segments](Outputs/Profile each cluster.png)
-```
+![RFM distributions](Outputs/Descriptive%20statistics%20and%20RFM%20features_data_Chart.png)
+
+### 2. Customer Cluster Visualisation
+
+![Cluster evaluation](Outputs/cluster-Visualise%20clusters.png)
+
+### 3. Customer Cluster Profiles
+
+![Customer segments](Outputs/Profile%20each%20cluster.png)
 
 ## 🧰 Skills Demonstrated
 
