@@ -68,7 +68,7 @@ When the notebook is run, it displays:
 
 ### 2. Customer Cluster Visualisation
 
-![Cluster evaluation](Outputs/cluster-Visualise%20clusters.png)
+![Cluster evaluation](Outputs/Visualise%20clusters.png)
 
 ### 3. Customer Cluster Profiles
 
