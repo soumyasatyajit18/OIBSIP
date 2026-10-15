@@ -82,13 +82,19 @@ The notebooks generate their previews when executed:
 
 To add screenshots to this README, save your own notebook output images in a folder such as `images/` and link them here. Example:
 
-```markdown
-![Retail sales trend](images/retail-sales-trend.png)
-![Customer segmentation](images/customer-segments.png)
-![Data quality report](images/data-quality-report.png)
-```
+## Data Cleaning Summary
 
----
+![Before and After Cleaning](Image/Before-versus-after%20summary.png)
+
+## Correlation Heatmap
+
+![Correlation Matrix](Image/Correlation%20Heatmap_Output.png)
+
+## Customer Segmentation Visualizations
+
+![Customer Segments](Image/Visualise%20clusters.png)
+
+
 
 ## 🧰 Skills Demonstrated
 
